@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/images/logo-full.svg";
+import Logo from "./Logo";
 
 function Header() {
   return (
@@ -12,16 +12,6 @@ function Header() {
         <p className=" text-[#ffffff9a] font-Inconsolata text-xl tracking-wider text-center">
           Secure your spot at next year's biggest coding conference.
         </p>
-      </div>
-    </div>
-  );
-}
-
-function Logo() {
-  return (
-    <div>
-      <div className=" mt-6 mb-8">
-        <img src={logo} />
       </div>
     </div>
   );

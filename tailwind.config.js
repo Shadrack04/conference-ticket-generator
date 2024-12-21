@@ -7,6 +7,10 @@ export default {
         "bg-mobile": "url('/src/assets/images/background-mobile.png')",
         "bg-desktop": "url('/src/assets/images/background-desktop.png')",
         "bg-tablet": "url('/src/assets/images/background-tablet.png')",
+        ticket: "url('/src/assets/images/pattern-ticket.svg')",
+      },
+      fontFamily: {
+        Inconsolata: ["Inconsolata", "sans-serif"], // Fallback to sans-serif
       },
     },
   },
